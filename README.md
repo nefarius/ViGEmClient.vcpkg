@@ -1,6 +1,6 @@
 # ViGEmClient Vcpkg Port
 
-[Vcpkg](https://github.com/microsoft/vcpkg) portfile for native ViGEm Client library.
+[Vcpkg](https://github.com/microsoft/vcpkg) portfile for [native ViGEm Client library](https://github.com/ViGEm/ViGEmClient).
 
 ## Usage
 
