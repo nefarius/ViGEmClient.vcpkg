@@ -3,8 +3,8 @@ include(vcpkg_common_functions)
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO ViGEm/ViGEmClient
-    REF v1.16.98.0
-    SHA512 dfb7a846687437665d18af3f23da6bf6a07fbbbb46685da19d17b7d9e40d723a8bd8f2491c1a85a20997b5cbb3b4f41876f8e7d1f8b45dfdba12acd38dcd5e04
+    REF v1.16.107.0
+    SHA512 8c858d4ff05cfca29a3598b18a8e816c81da5cb5d027aa9351c6981a358fb6514958ef8f827b5e747738f98b287103db75aa83428662a5fd3ccd8e52c44f8bd8
     HEAD_REF master
 )
 
