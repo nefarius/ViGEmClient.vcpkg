@@ -11,7 +11,7 @@ vcpkg_from_github(
 if (VCPKG_LIBRARY_LINKAGE STREQUAL dynamic)
     vcpkg_install_msbuild(
         SOURCE_PATH ${SOURCE_PATH}
-        PROJECT_SUBPATH "src/ViGEmClient.vcxproj"
+        PROJECT_SUBPATH "ViGEmClient.sln"
         INCLUDES_SUBPATH "include"
         PLATFORM ${VCPKG_TARGET_ARCHITECTURE}
         RELEASE_CONFIGURATION Release_DLL
@@ -21,7 +21,7 @@ if (VCPKG_LIBRARY_LINKAGE STREQUAL dynamic)
 elseif (VCPKG_LIBRARY_LINKAGE STREQUAL static)
     vcpkg_install_msbuild(
         SOURCE_PATH ${SOURCE_PATH}
-        PROJECT_SUBPATH "src/ViGEmClient.vcxproj"
+        PROJECT_SUBPATH "ViGEmClient.sln"
         INCLUDES_SUBPATH "include"
         PLATFORM ${VCPKG_TARGET_ARCHITECTURE}
         RELEASE_CONFIGURATION Release_LIB
