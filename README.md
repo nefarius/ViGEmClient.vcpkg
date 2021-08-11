@@ -4,7 +4,7 @@
 
 ## Usage
 
-1. [Follow the Vcpkg Quick Start](https://github.com/microsoft/vcpkg#quick-start)
+1. [Follow the Vcpkg Quick Start](https://github.com/microsoft/vcpkg#quick-start-windows)
 2. Clone this repository into a directory of your choice like this example:
     - `git clone https://github.com/ViGEm/ViGEmClient.vcpkg.git C:\ViGEmClient.vcpkg`
 
